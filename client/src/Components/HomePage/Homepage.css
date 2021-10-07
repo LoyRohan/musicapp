@@ -1,0 +1,51 @@
+.flipImage{
+    color: #222;
+    font-size: 100%;
+    font-family: "Raleway",sans-serif;
+    line-height: 28px;
+    box-sizing: inherit;
+    position: relative;
+}
+
+.xAxis{
+    transition: 1.8s;
+    animation: flipY 15s infinite;
+}
+
+.y-Axis{
+    transition: 0.8s;
+    animation: flipY 10s infinite;
+}
+
+.yAxisFifteen{
+    transition: 0.8s;
+    animation: flipY 15s infinite;
+}
+
+/* Flip Animation */
+@keyframes flipX{
+    from {
+        -webkit-transform: rotateX(180deg);
+    }
+    
+    to {
+        -webkit-transform: rotateX(-180deg);
+    }
+    
+}
+@keyframes flipY{
+    from {
+        -webkit-transform: rotateY(180deg);
+    }
+    
+    to {
+        -webkit-transform: rotateY(-180deg);
+    }
+    
+}
+
+.gradientText{
+    background-image: linear-gradient(#B993D6, #8CA6DB, #E55D87, #5FC3E4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,9 @@
+export const land = require('./land.jpg');
+export const land2 = require('./land_2.jpg');
+export const land3 = require('./land_3.jpg');
+export const land4 = require('./land_4.jpg');
+export const land5 = require('./land_5.jpg');
+export const land6 = require('./potr_1.jpg');
+export const land7 = require('./potr_2.jpg');
+export const land8 = require('./potr_3.jpg');
+export const land9 = require('./potr_4.jpg');
